@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -50,13 +50,13 @@ test:
 
 about:
   home: http://www.meteoswiss.ch
-  license: GPL-3.0-only
   summary: Set of tools to simplify application of atomic forecast verification metrics for (comparative)
     verification of ensemble forecasts to large data sets. The forecast metrics are
     imported from the 'SpecsVerification' package, and additional forecast metrics are
     provided with this package. Alternatively, new user-defined forecast scores can
     be implemented using the example scores provided and applied using the functionality
     of this package.
+  license: GPL-3.0-only
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
