@@ -1,4 +1,4 @@
-{% set version = '0.4.4' %}
+{% set version = "0.4.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/easyVerification_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/easyVerification/easyVerification_{{ version }}.tar.gz
-  sha256: ed2c8c5a37f933b1ab34f9e5c0fda57ab34b88b154cba0d9913b809e5580b122
+  sha256: 6c46715bbf87bd46aec22556222b641ffd43cea8a13e819c3ce00166a16bc2cc
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -50,12 +50,8 @@ test:
 
 about:
   home: http://www.meteoswiss.ch
-  summary: Set of tools to simplify application of atomic forecast verification metrics for (comparative)
-    verification of ensemble forecasts to large data sets. The forecast metrics are
-    imported from the 'SpecsVerification' package, and additional forecast metrics are
-    provided with this package. Alternatively, new user-defined forecast scores can
-    be implemented using the example scores provided and applied using the functionality
-    of this package.
+  summary: Set of tools to simplify application of atomic forecast verification metrics for (comparative) verification of ensemble forecasts to large data sets. The forecast metrics are imported from the 'SpecsVerification' package, and additional forecast metrics are provided with this package. Alternatively, new user-defined
+    forecast scores can be implemented using the example scores provided and applied using the functionality of this package.
   license: GPL-3.0-only
   license_family: GPL3
   license_file:
