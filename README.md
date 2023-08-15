@@ -3,6 +3,7 @@ About r-easyverification-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-easyverification-feedstock/blob/main/LICENSE.txt)
 
+
 About r-easyverification
 ------------------------
 
@@ -11,6 +12,7 @@ Home: http://www.meteoswiss.ch
 Package license: GPL-3.0-only
 
 Summary: Set of tools to simplify application of atomic forecast verification metrics for (comparative) verification of ensemble forecasts to large data sets. The forecast metrics are imported from the 'SpecsVerification' package, and additional forecast metrics are provided with this package. Alternatively, new user-defined forecast scores can be implemented using the example scores provided and applied using the functionality of this package.
+
 About r-easyverification
 ------------------------
 
